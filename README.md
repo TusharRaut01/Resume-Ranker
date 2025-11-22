@@ -55,41 +55,41 @@ It generates a percentage match score, identifies resume issues, and provides im
 
 ---
 
-# Installation and Setup
-### Create a new environment:-
+## Installation and Setup
+#### Create a new environment:-
 
 - conda create -p venv python=3.9.13 -y
 
-### Activate the environment:-
+#### Activate the environment:-
 
 - conda activate venv/
 
-### Install dependencies:-
+#### Install dependencies:-
 
 - pip install -r requirements.txt
 
-### Run the backend:-
+#### Run the backend:-
 
 - uvicorn app.main:app --reload
 
-### Launch the Streamlit interface:-
-## Create a new environment:
+## Launch the Streamlit interface:-
+#### Create a new environment:
 
 - conda create -p venv python=3.9.13 -y
 
-## Activate the environment:
+#### Activate the environment:
 
 - conda activate venv/
 
-## Install dependencies:
+#### Install dependencies:
 
 - pip install -r requirements.txt
 
-## Run the backend:
+#### Run the backend:
 
 - uvicorn app.main:app --reload
 
-## Launch the Streamlit interface:
+#### Launch the Streamlit interface:
 
 
 - streamlit run app.py
