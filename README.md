@@ -1,4 +1,3 @@
-
 # Resume Ranker — ATS-Based Resume Scoring System
 
 Resume Ranker is an AI-powered application that evaluates and ranks resumes against a given job description using Natural Language Processing (NLP), Machine Learning, and Large Language Models.  
@@ -57,7 +56,6 @@ It generates a percentage match score, identifies resume issues, and provides im
 ---
 
 # Installation and Setup
-
 ### Create a new environment:-
 
 - conda create -p venv python=3.9.13 -y
@@ -75,6 +73,24 @@ It generates a percentage match score, identifies resume issues, and provides im
 - uvicorn app.main:app --reload
 
 ### Launch the Streamlit interface:-
+## Create a new environment:
+
+- conda create -p venv python=3.9.13 -y
+
+## Activate the environment:
+
+- conda activate venv/
+
+## Install dependencies:
+
+- pip install -r requirements.txt
+
+## Run the backend:
+
+- uvicorn app.main:app --reload
+
+## Launch the Streamlit interface:
+
 
 - streamlit run app.py
 
